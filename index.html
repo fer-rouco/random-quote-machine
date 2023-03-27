@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Random Quote Machine</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="index.js"></script> 
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <div id="quote-box" class="quote-container">
+      <div class="quote-text-above-line-container">
+        <hr class="quote-text-above-line">
+        <i class="icon-quote-right icon-big"></i>
+        <hr class="quote-text-above-line">
+      </div>
+      <div class="quote-text" >
+        <h1 id="text" ></h1>    
+      </div>
+      <h6 id="author" class="quote-author" ></h6>
+      <div class="row">
+        <div class="col-4 col-sm-4 col-md-4">
+          <a id="tweet-quote" class="btn btn-primary" >
+            <i class="icon-twitter"></i>
+          </a>
+          <a id="tumblr-quote" class="btn btn-primary" >
+            <i class="icon-tumblr"></i>
+          </a>
+        </div>
+        <div class="col-4 col-sm-4 col-md-4">
+        </div>
+        <div class="col-4 col-sm-4 col-md-4">
+          <button id="new-quote" class="btn btn-primary new-quote-button" onclick="onNewQuoteRequest()" >New Quote</button>
+        </div>
+      </div>
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <footer>
+      <p> by <a class="link" href="https://www.linkedin.com/in/fernando-nicolás-rouco-a1066262/">FnR</a></p>
+    </footer>
+  </body>
+</html>
+
+
+
+

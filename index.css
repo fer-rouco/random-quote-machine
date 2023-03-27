@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6z41z5');
+  src:  url('fonts/icomoon.eot?6z41z5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6z41z5') format('truetype'),
+    url('fonts/icomoon.woff?6z41z5') format('woff'),
+    url('fonts/icomoon.svg?6z41z5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quote-right:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-tumblr:before {
+  content: "\eaba";
+}
+
+
+body {
+  background-color: #888FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quote-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: #FFFFFF;
+  display: table;
+  width: 450px;
+}
+
+/* .quote-text {
+ font-size: 40px;
+} */
+
+.icon-big {
+  font-size: 40px;
+}
+
+.quote-text-above-line {
+  width: 40%;
+  margin: 20px;
+}
+
+.quote-text-above-line-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 0.9em;
+  text-align: center;
+  color: mediumblue;
+}
+
+.new-quote-button {
+  min-width: 120px;
+  float: right;
+}
+
