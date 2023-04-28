@@ -7,7 +7,7 @@ Available live [here](https://fernet87.github.io/random-quote-machine//)
 ## About the Project
 
 <p align="center">
-  <img src="./src/assets/screenshot.png" />
+  <img src="./assets/screenshot.png" />
 </p>
 
 This is a Vanilla Javascript app for [freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) Front End Development Libraries project.
