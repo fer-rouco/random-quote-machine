@@ -2,7 +2,7 @@
 
 > App which randomly shows quotes from different authors.
 
-Available live [here](https://fernet87.github.io/random-quote-machine//) 
+Available live [here](https://fer-rouco.github.io/random-quote-machine//) 
 
 ## About the Project
 
